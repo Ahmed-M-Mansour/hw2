@@ -1,0 +1,261 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+
+nav
+{
+    background-color: #293DCB;
+    position: fixed;
+    top: 0; 
+    left: 0 ; 
+    right: 0 ; 
+}
+nav ul 
+{
+    width: 35%;
+    margin: auto;
+    display: flex;
+     justify-content: space-between;
+     padding: 5px;
+     
+    
+}
+nav ul li
+{
+    list-style: none;
+    cursor: pointer;
+  
+    padding: 3px 6px;
+    width: 100px;
+    text-align: center;
+}
+nav ul li:active
+{
+    border-bottom: 2px solid #fff;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+/* --------------    This my container ----------------------  */ 
+
+.container
+{
+  width: 70% ;
+  margin: auto;
+ 
+}
+
+
+/* --------------    This my header  ----------------------  */ 
+header .personalText
+{  
+    width: 50%;
+    float: left;
+    padding: 50px;
+    margin-top: 150px;
+
+}
+/*  This is the first section on the header that contain some info about me   */ 
+
+header .personalText h5
+{
+    font-weight: 50 ; 
+    padding: 2px;
+}
+header .personalText h2
+{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+header .personalText h2 span
+{
+    border-bottom: 7px solid #09c ;
+}
+header .personalText h3
+{
+    padding: 20px;
+    padding-left: 0;
+}
+header .personalText button 
+{
+    padding: 5px 20px ; 
+    background-color: #293DCB;
+    color: #fff;
+}
+/*  This is the second section on the header that contain my image    */ 
+
+header .personalImg
+{
+    width: 50%;
+    float: left;
+
+}
+header .personalImg img
+{
+    width: 100%;
+}
+/*  class to clear the float    */ 
+
+.clear-fix
+{
+    clear: both;
+}
+
+
+/* ------------------------------- the section of my skills ---------------------   */ 
+
+.mySubjects 
+{
+    margin-top: 50px;
+    padding-top: 50px;
+ 
+}
+.mySubjects  h2
+{
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 5px solid   #293DCB;
+}
+.mySubjects  h2 span
+{
+    color: #293DCB ; 
+}
+
+.subgects 
+{
+    background-color: #293DCB;
+    margin-top: 50px;
+}
+.subgects  .subject 
+{
+    width: 30%;
+    background-color: #3246D3;
+    color: #fff;
+    float: left;
+    padding: 20px; 
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+.subgects  .subject h3 
+{
+    
+    padding: 8px;
+}
+.subgects  .subject p
+{
+    line-height: 1.3;
+}
+
+
+
+
+
+
+
+/*  ---------------------------       section of our  course   -----------   */  
+.ourCourse
+{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border: 4px solid #293DCB;
+   padding: 20px;
+   background-color: #293DCB;
+}
+
+
+.ourCourse .images 
+{
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ourCourse .images .img 
+{
+    width: 16.6%; 
+    height: 150px;
+    
+}
+.ourCourse .images .img img 
+{
+    width: 100%; 
+    height: 100%;
+}
+
+.ourCourse .text 
+{
+    background-color:#3246D3;
+    height: 300px;
+}
+
+.ourCourse .text h2
+{
+   
+    height: 200px;
+    display: flex; 
+   align-items: center;
+   line-height: 1.5;
+   padding-left: 20px;
+}
+
+
+.ourCourse .text .topics 
+{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+  
+}
+
+.ourCourse .text .topics  .topic
+{
+    width: 15%; 
+    height: 100px;
+    background-color: darkgoldenrod;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #111;
+    margin-left: 5px;
+}
+
+
+/*   ----------------------------    The footer ---------------------------- */
+
+footer
+{
+    height: 100px; 
+    background-color: #101010;
+}
+footer div
+{
+    padding: 20px; 
+    margin: auto; 
+    color: #fff;
+    text-align: center;
+}
+footer div h4{
+    font-size: 30px;
+}
+footer div h4 a 
+{
+    text-decoration: none;
+    color: #3246D3;
+    font-size: 25px;
+   text-shadow: 1px  1px;
+}
